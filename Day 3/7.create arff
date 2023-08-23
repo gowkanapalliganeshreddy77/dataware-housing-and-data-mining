@@ -1,0 +1,13 @@
+@relation hotdogs
+@attribute hotdogs{t,f}
+@attribute buns{t,f}
+@attribute ketchup{t,f}
+@attribute coke{t,f}
+@attribute chips{t,f}
+@data
+t ,t, t ,f, f
+t ,t, f, f ,f 
+t ,f ,f ,t ,t 
+f ,f, f ,t ,t
+f ,f ,t ,f, t
+t, f, f, t, t
